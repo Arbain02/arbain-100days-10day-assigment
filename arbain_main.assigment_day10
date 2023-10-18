@@ -1,0 +1,20 @@
+
+package codingan.pkg100days.pkg10day;
+
+public class arbain_main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        
+        a += b * c;
+        System.out.println(a);
+        a = (a > b) ? 100 : 200;
+        System.out.println(a);
+        a = a == b ? 1 : 0;
+        System.out.println(a);
+                
+           
+    }
+    
+}
